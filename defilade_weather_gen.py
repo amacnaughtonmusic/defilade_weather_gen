@@ -19,7 +19,8 @@ random_event = ["Heavy bombardment from the previous day has greatly damaged inf
                 "The sound of distant artillery can be heard in the distance.",
                 "Stray bullets from an aerial dogfight pepper the land. Watch your heads!",
                 "Airstrikes seem to be missing their mark, and are landing in your viscinity.",
-                "Nearby radio towers seem to be disabled - radio contact is spotty at best."
+                "Nearby radio towers seem to be disabled - radio contact is spotty at best.",
+                "Heavy artillery from a few miles away has caused avalanches in the nearby mountains!"
                 ]
 
 def print_intro():
@@ -31,8 +32,8 @@ def print_intro():
 
     # Welcome message/instructions
     print("Welcome to the Defilade Weather Gen.")
-    print("This script generates incremental weather on a day-by-day basis.")
-    print("This is set to winter for now..")
+    print("This script generates incremental weather on a day-by-day basis for the TTRRPG, Defilade.")
+    print("This is set to winter for now, but is easily changed in the code.")
     print()
     print("----------")
     print("HOW TO USE")
@@ -41,7 +42,7 @@ def print_intro():
     print("Type 'reset' to start over from Day 1.")
     print("Type 'exit' to quit the program.")
     print()
-    print("If anyone except me is using this, thanks - Angus Macnaughton")
+    print("If anyone except me is using this, thanks - Angus Macnaughton (macnaughton on Discord)")
 
 def alter_weather(current_weather):
     # Dictionary defining possible transitions between weather types
